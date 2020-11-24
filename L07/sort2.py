@@ -4,6 +4,6 @@ a=int(input("輸入2個數字"))
 b=int(input())
 c=max(a,b)
 d=min(a,b)
-print(str(c,"\n",d))
+print(str(c)+"\n"+str(d))
 
 

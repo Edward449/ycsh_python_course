@@ -3,11 +3,12 @@
 # 若為質數，顯示 '是質數' ，反之顯示 '不是質數' 。
 a=int(input("請輸入一數字(100以內的正整數):"))
 b=2
-while a>b:
-  ifa%b==0
-  print("不是質數")
-  break
-  b+=1
-
-  if b==a:
-    print("是質數")
+while a>b :
+   b+=1
+   if  b==a:
+     print("是質數")
+     break
+   elif a%b==0:
+     print("不是質數")
+     break
+     
